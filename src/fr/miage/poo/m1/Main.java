@@ -4,6 +4,10 @@ import fr.miage.poo.m1.td6.*;
 
 public class Main {
 
+    /**
+     * TD6 Tourniquet du métro parisien
+     * Les exceptions ont été gérées dans la méthode "action" dans la classe "Tourniquet"
+     */
     private static void td6() {
         System.out.println("-- QUESTION 1 --");
         Tourniquet tourniquet1 = new Tourniquet();
