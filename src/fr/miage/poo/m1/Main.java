@@ -1,8 +1,18 @@
 package fr.miage.poo.m1;
 
+import fr.miage.poo.m1.td1.*;
 import fr.miage.poo.m1.td6.*;
 
 public class Main {
+
+    /**
+     * TD1 La bonne formation des objets - encapsulation
+     */
+    private static void td1(){
+        Customer customer1 = new Customer("DUPONT","Michel",
+                "Rue des lilas","dupont.michel@gmail.com","0654667892");
+        Catalog catalog1 = new Catalog();
+    }
 
     /**
      * TD6 Tourniquet du métro parisien
@@ -23,6 +33,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-	    td6();
+        td1();
+	    //td6();
     }
 }
