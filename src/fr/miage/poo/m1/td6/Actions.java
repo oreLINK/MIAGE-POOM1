@@ -1,0 +1,13 @@
+package fr.miage.poo.m1.td6;
+
+public enum Actions {
+    MISE_EN_MARCHE,
+    INSERER_MAUVAIS_TICKET,
+    INSERER_BON_TICKET,
+    PRENDRE_TICKET,
+    AVANCER,
+    PANNE,
+    REPARATION,
+    MISE_EN_MAINTENANCE,
+    REPRISE_SERVICE
+}
