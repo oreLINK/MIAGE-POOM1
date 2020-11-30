@@ -9,9 +9,20 @@ public class Main {
      * TD1 La bonne formation des objets - encapsulation
      */
     private static void td1(){
-        Customer customer1 = new Customer("DUPONT","Michel",
+        //creation du client
+        Customer cus1 = new Customer("DUPONT","Michel",
                 "Rue des lilas","dupont.michel@gmail.com","0654667892");
+        //creation du catalogue
         Catalog catalog1 = new Catalog();
+        //creation des 3 produits
+        Product pro1 = new Product("Ananas",7.5,45);
+        Product pro2 = new Product("Banane",3,140);
+        Product pro3 = new Product("Melon",5,15);
+        //ajout des 3 produits au catalogue
+        catalog1.addProductToCatalog(pro1);
+        catalog1.addProductToCatalog(pro2);
+        catalog1.addProductToCatalog(pro3);
+
     }
 
     /**

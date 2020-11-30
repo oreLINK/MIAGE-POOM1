@@ -1,20 +1,17 @@
 package fr.miage.poo.m1.td1;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Catalog {
 
-    private int tailleTableaux = 10;
-    private Product[] produitsEnStock = new Product[tailleTableaux];
-    private int[] qteProduitsEnStock = new int[tailleTableaux];
+    private List<Product> produitsEnStock = new ArrayList<Product>();
 
     public Catalog() {
     }
 
-    public int getTailleTableaux() {
-        return tailleTableaux;
-    }
-
-    public void addProductToCatalog(Product product, int quantité) {
-        
+    public void addProductToCatalog(Product product){
+        produitsEnStock.add(product);
     }
 
 }

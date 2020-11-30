@@ -7,6 +7,7 @@ public class Customer {
     private String adresse;
     private String email;
     private String numeroTelephone;
+    private Basket panier;
 
     public Customer(String nom, String prenom, String adresse, String email, String numeroTelephone) {
         this.nom = nom;
@@ -14,6 +15,10 @@ public class Customer {
         this.adresse = adresse;
         this.email = email;
         this.numeroTelephone = numeroTelephone;
+    }
+
+    public void addBasketToCustomer(Basket panier){
+        this.panier = panier;
     }
 
 }
