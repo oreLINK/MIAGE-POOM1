@@ -15,14 +15,17 @@ public class Main {
         //creation du catalogue
         Catalog catalog1 = new Catalog();
         //creation des 3 produits
-        Product pro1 = new Product("Ananas",7.5,45);
-        Product pro2 = new Product("Banane",3,140);
-        Product pro3 = new Product("Melon",5,15);
+        Product pro1 = new Product(1,"Ananas",7.5,45);
+        Product pro2 = new Product(2,"Banane",3,140);
+        Product pro3 = new Product(3,"Melon",5,15);
         //ajout des 3 produits au catalogue
-        catalog1.addProductToCatalog(pro1);
-        catalog1.addProductToCatalog(pro2);
-        catalog1.addProductToCatalog(pro3);
-
+        catalog1.addProduct(pro1);
+        catalog1.addProduct(pro2);
+        catalog1.addProduct(pro3);
+        catalog1.display();
+        //creation du panier
+        Basket basket1 = new Basket();
+        basket1
     }
 
     /**

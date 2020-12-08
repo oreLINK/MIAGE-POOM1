@@ -9,6 +9,11 @@ public class Basket {
     Customer customer;
     private List<Product> panierClient = new ArrayList<Product>();
 
+    public Basket(){}
 
+    public void addProduct(Product product, int quantite){
+        Product newProduct = new Product()
+        panierClient.add(product);
+    }
 
 }

@@ -17,7 +17,7 @@ public class Customer {
         this.numeroTelephone = numeroTelephone;
     }
 
-    public void addBasketToCustomer(Basket panier){
+    public void addBasket(Basket panier){
         this.panier = panier;
     }
 
